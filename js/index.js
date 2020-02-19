@@ -38,11 +38,12 @@ btnText.addEventListener("mouseenter", () => {
 
 let btnText2 = document.querySelector(".b2");
 btnText2.addEventListener("click", () => {
-    btnText2.textContent = "Can i think about this?";
+    btnText2.style.color = "purple";
 })
 
 let btnText3 = document.querySelector(".b3");
 btnText3.addEventListener("dblclick", () => {
     btnText3.textContent = "YESSSS!";
+    btnText3.style.backgroundColor = "yellow";
 })
 
